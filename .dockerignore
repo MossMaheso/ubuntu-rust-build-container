@@ -1,0 +1,6 @@
+**/.vs
+**/.git
+Dockerfile
+README.md
+VERSION
+.gitlab-ci.yml
