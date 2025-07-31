@@ -51,4 +51,37 @@ CTestTestfile.cmake
 _deps
 out/
 
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Rust IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Rust documentation
+doc/
+
+# Rust profiling and debugging
+*.prof
+*.gcda
+*.gcno
+
+# Rust test artifacts
+*.test
+*.bench
+
+# Rust backup files
+*.orig
+*.rej
+
+# Rust temporary files
+*.tmp
+*.temp
+
 .git
